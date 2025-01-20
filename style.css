@@ -1,0 +1,89 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg, #bf5dec, #ffcccc);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    border: 2px solid #7603ac;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #7603ac;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #7603ac;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+#contador {
+    font-weight: bold;
+    color: #7603ac;
+    font-size: 3rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    animation: pulse 2s infinite;
+}
+
+#tempo-juntos {
+    font-size: 1.5rem;
+    color: #7603ac;
+    margin-top: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-out;
+}
+
+#mensagem {
+    font-size: 1.4rem;
+    color: #7603ac; /* Cor semelhante ao título */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2.5s ease-out; /* Animação suave */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
