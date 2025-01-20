@@ -1,4 +1,4 @@
-const dataInicio = new Date(2023, 8, 20); // Data de início do relacionamento
+const dataInicio = new Date(2023, 6, 22); // Data de início do relacionamento
 
 function calcularTempoJuntos() {
     const hoje = new Date();
